@@ -1,0 +1,15 @@
+d25ded9c2bfae57de97ed8a0a05ee1dd *DESCRIPTION
+85747eb3c497c502fe5232b5352dabb8 *JSONdata/miserables.json
+beb9da0a27832e51ed923d3eb8cbb3e4 *NAMESPACE
+6e0d83b9f5c732a6bacdea1fe9208c48 *NEWS
+81e7dafaf3087f27ea4044ca03fac65b *R/d3ForceNetwork.R
+473368ad2aafa8d74e6df23043014f65 *R/d3Network.R
+5d688c52d502290957dcdae5eaeb6274 *R/d3SimpleNetwork.R
+109758e25bc37e670cdd8942a67ac680 *R/templates.R
+6ee9964a1b163939465e2830fff8749d *R/utils.R
+d4a07d16819d59a05b264425977f22e0 *README.md
+a94d814bbf44805bfedfa4397366f50f *man/JSONtoDF.Rd
+0c9f9825d564799f0bc228158f03b09e *man/d3ForceNetwork.Rd
+9d4f8595758ae8f47c4e1a6a67e618c0 *man/d3Network.Rd
+0f92d48fad2ca6efadaafd85573a30b4 *man/d3SimpleNetwork.Rd
+98a7b6d6ae0ca22bf2c54b61f2a1a4ee *man/miserables.Rd
