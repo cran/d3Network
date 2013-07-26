@@ -11,8 +11,8 @@
   d3ForceNetwork(Links, Nodes, Source, Target,
     Value = NULL, NodeID, Group, height = 600, width = 900,
     fontsize = 7, linkDistance = 50, charge = -120,
-    linkColour = "#666", opacity = 0.6, standAlone = TRUE,
-    file = NULL, iframe = FALSE,
+    linkColour = "#666", opacity = 0.6, zoom = FALSE,
+    standAlone = TRUE, file = NULL, iframe = FALSE,
     d3Script = "http://d3js.org/d3.v3.min.js")
 }
 \arguments{
@@ -68,6 +68,10 @@
   \item{opacity}{numeric value of the proportion opaque you
   would like the graph elements to be.}
 
+  \item{zoom}{logical, whether or not to enable the ability
+  to use the mouse scroll-wheel to zoom in and out of the
+  graph.}
+
   \item{standAlone}{logical, whether or not to return a
   complete HTML document (with head and foot) or just the
   script.}
@@ -100,7 +104,18 @@
   Create a D3 JavaScript force directed network graph.
 }
 \examples{
+#### Tabular data example.
+# Load data
+data(MisLinks)
+data(MisNodes)
+
+# Create graph
+d3ForceNetwork(Links = MisLinks, Nodes = MisNodes, Source = "source",
+               Target = "target", Value = "value", NodeID = "name",
+               Group = "group", opacity = 0.4)
+
 # dontrun
+#### JSON Data Example
 # Load data JSON formated data into two R data frames
 # library(RCurl)
 # MisJson <- getURL("http://bit.ly/1cc3anB")
