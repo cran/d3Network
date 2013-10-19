@@ -1,3 +1,19 @@
+v0.4.2 
+
+Minor bug fix for `d3ForceNetwork`.
+
+v0.4.1
+
+Improve `d3ForceNetwork` documentation.
+
+v0.4 
+
+Added `d3Sankey` to create Sankey diagrams. Thanks to Scott Chamberlain for the suggestion. 
+
+v0.3.3
+
+`toJSONarray` no longer quotes integers. Thanks to Mark Gene.
+
 v0.3.2
 
 Change examples for `d3ClusterDendro` so that they run on Windows.

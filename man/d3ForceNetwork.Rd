@@ -5,7 +5,7 @@
   D3.js was created by Michael Bostock. See
   \url{http://d3js.org/} and, more specifically for force
   directed networks
-  \url{https://github.com/mbostock/d3/wiki/Force-Layout}
+  \url{https://github.com/mbostock/d3/wiki/Force-Layout}.
 }
 \usage{
   d3ForceNetwork(Links, Nodes, Source, Target,
@@ -17,10 +17,11 @@
 }
 \arguments{
   \item{Links}{a data frame object with the links between
-  the nodes. It should have include the \code{Source} and
-  \code{Target} for each link. An optional \code{Value}
-  variable can be included to specify how close the nodes
-  are to one another.}
+  the nodes. It should include the \code{Source} and
+  \code{Target} for each link. These should be numbered
+  starting from 0. An optional \code{Value} variable can be
+  included to specify how close the nodes are to one
+  another.}
 
   \item{Nodes}{a data frame containing the node id and
   properties of the nodes. If no ID is specified then the
@@ -35,8 +36,7 @@
   variable in the \code{Links} data frame.}
 
   \item{Value}{character string naming the variable in the
-  \code{Links} data frame for how far away the nodes are
-  from one another.}
+  \code{Links} data frame for how wide the links are.}
 
   \item{NodeID}{character string specifying the node IDs in
   the \code{Nodes} data frame.}
