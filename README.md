@@ -1,11 +1,11 @@
 d3Network
 ===
 
-Tools for creating D3 JavaScript directed network graphs from R.
+Tools for creating D3 JavaScript network, tree, dendrogram, and Sankey graphs from R.
 
 [Christopher Gandrud](http://christophergandrud.blogspot.com/p/biocontact.html)
 
-Version: 0.5
+Version: 0.5.1
 
 [![Build Status](https://travis-ci.org/christophergandrud/d3Network.png)](https://travis-ci.org/christophergandrud/d3Network)
 
@@ -23,8 +23,8 @@ Source <- c("A", "A", "A", "A", "B", "B", "C", "C", "D")
 Target <- c("B", "C", "D", "J", "E", "F", "G", "H", "I")
 NetworkData <- data.frame(Source, Target)
 
-# Make network graph 
-d3SimpleNetwork(NetworkDatad3, height = 300, width = 700)
+# Make network graph
+d3SimpleNetwork(NetworkData, height = 300, width = 700)
 ```
 
 Many more examples can be found on the package's [main page](http://christophergandrud.github.io/d3Network/).
@@ -36,5 +36,3 @@ You can install *d3Network* using the [devtools](https://github.com/hadley/devto
 ```{S}
 devtools::install_github('christophergandrud/d3Network')
 ```
-
-
