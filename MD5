@@ -1,6 +1,6 @@
-601881f7d185e4c17f1c0833eb9090af *DESCRIPTION
+2bc27a5cd2fe7230f34b69d473768dab *DESCRIPTION
 c4af76209e943e368933cf62c059f52c *NAMESPACE
-7ac83802fcfc831c06234d1894806690 *NEWS
+65c6389c719f265d6285f36a747b1ed6 *NEWS
 62c473fb6cbe163de852fbacf51b521a *R/DataDescriptions.R
 3a3425086be3e55700fdf50765bf9abb *R/d3ClusterDendro.R
 9ff17d3235db5a223d2ccfd818a2f4b6 *R/d3ForceNetwork.R
@@ -9,11 +9,10 @@ c4af76209e943e368933cf62c059f52c *NAMESPACE
 43fbe014accadab05fde411bef6db82a *R/d3SimpleNetwork.R
 c807d663c2aadd3fad8d2345169fd033 *R/d3Tree.R
 57d60600d391799ae4a6aeb82bb48c93 *R/plugins.R
-77c1f83b90d02ca289bdc3e2495fbe09 *R/templates.R
+b00efce53b53f0bb63df610c82cb0306 *R/templates.R
 3de4032b555e49ecfe806561f8b9e47a *R/utils.R
-470de1704c328781e84c82adaefe960e *README.md
-0984149fe27cc4516c4f33e593757ff8 *data/MisLinks.tab.gz
-6917ecd3f1c98fb23f7499a07b9f7382 *data/MisNodes.tab.gz
+c4c291cab0e995fa1c62cb52474b50cc *data/MisLinks.tab
+fb4ad57316911ee04a89ec80ce38622d *data/MisNodes.tab
 44581484b1006e1b5fd6e155fe6f08ac *man/JSONtoDF.Rd
 8897c866aa18e41de8280201c1ea30a3 *man/MisLinks.Rd
 87d636a622930e66eff501b52ccca6d8 *man/MisNodes.Rd
